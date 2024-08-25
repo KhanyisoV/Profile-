@@ -1,0 +1,164 @@
+/* heading, my name font and color  */
+h1
+{
+    color: grey;
+    font-size: 25px;
+    float: left;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 2%;
+}
+ h1:hover
+ {
+    color: blue;
+    font-size: 20px;
+ }
+/* UL for nav list */
+  ul
+  {
+   color: cadetblue;
+    list-style-type: none;
+    max-width: 400px; 
+    display: inline;
+    justify-content: space-between;
+    align-items: center;
+
+  }
+
+  /* li for nav list */
+  li
+  {
+    color: cadetblue;
+    padding: 10px 10px;
+    float: right;
+    margin-right: 50px;
+    font-size: 22px;
+    margin-top: 2%;
+    scroll-behavior: smooth;
+  
+  }
+  .nav__list :hover
+  {
+    color: blue;
+    font-size: 20px;
+   
+  }
+  
+  .Welcome{
+
+    padding-top: 10%;
+    padding-left: 15%;
+  }
+  h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: cadetblue;
+    font-size: 48px;
+
+  }
+  h3
+  {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 32px;
+
+  }
+
+    /* Profile Pic */
+  .Profile-image
+  {
+    width: 200px;
+  justify-self: center;
+  border-radius: 20%;
+  position: absolute;
+  top: 20%;
+  right: 20%;
+
+  }
+
+  /* Button */
+#buttons
+{
+    background-color: rgb(95, 158, 160);
+    color: white;
+    border-radius: 0.5rem;
+    transition: 0.3s;
+    border-color: rgba(95, 158, 160, 0.47);
+    display: inline-block;
+    font-size:medium ;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+#button1
+{
+    padding-left:10%;
+    padding-top: 4%;
+}
+#button1 :hover{
+    background-color:rgb(124, 124, 255);
+    font-size: large;
+}
+/* Picture 2 */
+
+.images
+
+{
+    width: 350px;
+    justify-self: center;
+    position: absolute;
+    top: 750px;
+    
+
+}
+
+/* Story section  */
+
+#sub_title
+{
+    color: cadetblue;
+    font-size: large;
+   
+}
+.My-story
+{
+    position: absolute;
+    right: 10%;
+    top:700px;
+   
+}
+.story
+{
+
+    font-family:'Times New Roman', Times, serif;
+    text-align: left;
+    max-width: 350px;
+    font-size: 20px;
+}
+  /* Button 2 Download Cv */
+#button2
+{
+    padding-left:10%;
+    padding-top: 1%;
+}
+#button2 :hover{
+    background-color:rgb(124, 124, 255);
+    font-size: large;
+}
+
+ /* Skills Section*/
+
+ #Qualifications
+ {
+    position: absolute;
+    top: 1300px;
+    right: 50%;
+    font-size: 35px;
+    color: cadetblue;
+    
+   
+ }
+ html {
+    scroll-behavior: smooth;
+}
+
+
+
+
+ 
