@@ -1,4 +1,10 @@
 /* heading, my name font and color  */
+
+a{
+  text-decoration: none;
+  color: inherit;
+
+}
 h1
 {
     color: grey;
@@ -15,7 +21,7 @@ h1
 /* UL for nav list */
   ul
   {
-   color: cadetblue;
+    color: cadetblue;
     list-style-type: none;
     max-width: 400px; 
     display: inline;
@@ -158,7 +164,35 @@ h1
     scroll-behavior: smooth;
 }
 
+#Sub
+{
+    color: cadetblue;
+    font-size: 27px;
+   float: left;
+   position: absolute;
+   top: 1500px;
+}
+#Education
+{
+  position: absolute;
+   top: 1600px;
+   float: left;
+   
+}
 
-
+#Skills
+{
+    color: cadetblue;
+    font-size: 27px;
+   float: left;
+   position: absolute;
+   top: 1750px;
+}
+#Skill-List
+{
+  float: left;
+  position: absolute;
+  top: 1820px;
+}
 
  
